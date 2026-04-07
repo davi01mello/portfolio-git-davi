@@ -1,0 +1,13 @@
+Reflexão Pessoal: Aprendizado e Prática com Git
+O que foi difícil
+O início deste exercício foi, sem dúvida, a parte mais desafiadora. Acreditei que apenas entender os comandos git add e git commit seria o suficiente, mas a realidade do terminal se mostrou muito mais complexa. O erro que mais me travou foi o "fatal: not a git repository", que aconteceu porque eu estava tentando commitar arquivos em uma pasta que ainda não tinha sido inicializada corretamente. Além disso, lidar com o PowerShell no Windows trouxe dificuldades extras: comandos que eu via em tutoriais de Linux, como o mkdir -p, simplesmente não funcionavam da mesma forma, gerando erros de parâmetros posicionais que eu não entendia.
+
+Outro ponto de grande frustração foi a "pasta fantasma" (portfolio-git-davi/) que apareceu como um erro de commit não realizado. Entender que o Git enxergava aquela pasta como um submódulo ou um repositório aninhado exigiu muita paciência para limpar o cache e reestruturar os arquivos. Esses momentos de "trava" foram os que mais exigiram tentativa e erro, forçando-me a ler as mensagens de erro com mais atenção em vez de apenas ignorá-las.
+
+O que ficou claro
+Apesar dos tropeços iniciais, o conceito de Branches e Pull Requests ficou muito claro para mim. Antes, eu via o Git apenas como uma ferramenta de backup, mas agora entendo que ele é uma ferramenta de colaboração. A analogia de que uma branch é uma "linha do tempo alternativa" onde posso errar sem quebrar a versão principal (main) fez total sentido quando criei a feat/exercicio-commits.
+
+O uso de Conventional Commits também se provou uma prática excelente. No começo, parecia uma burocracia desnecessária digitar feat: ou docs:, mas ao olhar o git log no final do processo, percebi como o histórico fica organizado e fácil de ler. Ficou claro que um bom desenvolvedor não apenas escreve código, mas comunica suas intenções para a equipe através dessas mensagens padronizadas.
+
+O que ainda é confuso
+Ainda sinto certa insegurança na resolução de conflitos mais complexos. Embora eu tenha conseguido resolver o conflito proposital deste exercício através da interface do GitHub, o processo de fazer isso manualmente pelo terminal ou via VS Code ainda me parece um pouco intimidador. Tenho dúvidas sobre como decidir qual versão manter em um cenário real de projeto em equipe, onde o código de outra pessoa pode ser vital. Além disso, a diferença profunda entre comandos como git reset, git revert e git checkout para desfazer erros ainda não está totalmente consolidada na minha mente; pretendo explorar mais esses comandos de "salvamento" nas próximas semanas da disciplina para não ter medo de perder meu trabalho.
